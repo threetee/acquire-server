@@ -1,0 +1,6 @@
+@startuml
+title Create Game
+
+User->Server: POST /games
+Server->User: New game info
+@enduml
